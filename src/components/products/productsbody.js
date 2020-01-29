@@ -20,7 +20,8 @@ class ProductBody extends Component{
                         </div>
                     </div>
                 </header>
-                
+                <GroceryItems/>
+                <GeneralFooter/>
             </div>
         );
     }
