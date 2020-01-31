@@ -88,7 +88,12 @@ class ProductRep extends React.Component{
     render(){    
         return(
             <div className="col-lg-4">
-             
+                <div className="alert alert-info" style={{ display: this.state.success!=="" ? "" : "none" }}>
+                        {this.state.success}
+                </div>
+                <div className="alert alert-danger" style={{ display: this.state.error!=="" ? "" : "none" }}>
+                        {this.state.error}
+                </div>
                 <div className="testimonial-item mx-auto mb-5 mb-lg-0">
                     <img className="img-fluid rounded-circle mb-3" 
                         src={`http://localhost:4000/productuploads/${this.props.pimage}`}  alt={this.props.pname} />
