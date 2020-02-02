@@ -15,7 +15,9 @@ class UserCart extends Component{
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-9 mx-auto">
-                              
+                                <h1 className="mb-5 header-capital">
+                                One click away from easy home delivery
+                                </h1>
                             </div>
                         </div>
                     </div>
