@@ -101,7 +101,30 @@ class CartBody extends Component{
                         </div>
                     </div>
                 </div>
-               
+                {/* content */}
+                <div className="modal fade" id="exampleModalCenter" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered" role="document">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title first-cap" id="exampleModalLongTitle">Checking Out</h5>
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                        </div>
+                        <div className="modal-body">
+                            <form className="forms-sample">
+                                <div className="form-group">
+                                    <label className="first-cap">Thank you for choosing us. We will call about your order
+                                    confirmation in few minutes.
+                                    </label>
+                                </div>
+                                {/* <input type="submit" class="btn btn-primary mr-2 float-left"/> */}
+                            </form>
+                        </div>
+                    <div className="modal-footer">
+                        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
             </div>
