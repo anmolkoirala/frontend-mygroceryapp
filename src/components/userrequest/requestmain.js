@@ -14,7 +14,9 @@ class UserRequest extends Component{
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-9 mx-auto">
-
+                                <h1 className="mb-5 header-capital">
+                                Request A product you want us to add to our store
+                                </h1>
                             </div>
                         </div>
                     </div>
